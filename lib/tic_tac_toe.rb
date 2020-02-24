@@ -104,9 +104,9 @@ if won? != nil || draw? == true
 end
 end
 
-def winner(board)
-if over?(board) == true && won?(board) != false
-  return board[won?(board)[0]]
+def winner
+if over? == true && won? != false
+  return @board[won?(board)[0]]
 else
   return nil
 end
