@@ -90,7 +90,11 @@ end
 
 def full?
   @board.none?  {|i| i == " " || i == ""}
-
 end
+
+def draw?
+  if  won? == nil && full? == true
+    return true
+  end
 
 end
