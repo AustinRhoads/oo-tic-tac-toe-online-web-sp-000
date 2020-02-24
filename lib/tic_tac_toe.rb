@@ -106,7 +106,7 @@ end
 
 def winner
 if over? == true && won? != false
-  return @board[won?(board)[0]]
+  return @board[won?[0]]
 else
   return nil
 end
