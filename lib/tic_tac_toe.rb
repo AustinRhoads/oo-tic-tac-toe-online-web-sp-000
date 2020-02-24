@@ -50,7 +50,7 @@ end
  end
 
  def current_player
-   turns = turn_count(@board) % 2
+   turns = turn_count % 2
    if turns == 0
      return "X"
    else
