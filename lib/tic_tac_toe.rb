@@ -49,4 +49,13 @@ end
    return counter
  end
 
+ def current_player
+   turns = turn_count(@board) % 2
+   if turns == 0
+     return "X"
+   else
+     return "O"
+ end
+ end
+
 end
