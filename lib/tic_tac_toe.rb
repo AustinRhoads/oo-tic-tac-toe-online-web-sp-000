@@ -96,5 +96,6 @@ def draw?
   if  won? == nil && full? == true
     return true
   end
+end
 
 end
