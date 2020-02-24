@@ -112,5 +112,17 @@ else
 end
 end
 
+def play
+until over? == true
+  turn
+end
+if draw? == true
+  puts "Cat's Game!"
+elsif won? != nil
+  v = winner
+  puts "Congratulations #{v}!"
+
+end
+end
 
 end
